@@ -59,6 +59,8 @@ h1 {
 }
 
 body {
+  padding-top: 83px;
+  padding-bottom: 65px;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -76,9 +78,7 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
   grid-template-rows: 250px 70px 230px 220px;
-
   gap: 1.5rem;
   margin: 0 auto;
 }
